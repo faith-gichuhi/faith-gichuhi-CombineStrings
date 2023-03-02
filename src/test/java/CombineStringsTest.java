@@ -23,7 +23,9 @@ public class CombineStringsTest {
         String input1 = "123"; 
         String input2 = "456";
         String expected = "123456";
-        String actual = cs.combine(input1, input2);
+        String actual = cs.combine(input1 , input2);
         Assert.assertEquals(expected,actual);
+
+
     }
 }
